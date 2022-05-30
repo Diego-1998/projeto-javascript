@@ -1,5 +1,6 @@
 function calcular(a,b){
-    console.log(a + b);
+    return a + b;
 }
 
-calcular(5,10);
+console.log(calcular(4,5));
+console.log(calcular(10,3));
