@@ -1,5 +1,3 @@
-let nomes = ["Diego", "Leandro", "Maria", "Igor"];
-
 let elementoRemovido = nomes.pop();
 
 console.log(elementoRemovido);
