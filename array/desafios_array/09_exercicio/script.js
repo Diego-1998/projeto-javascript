@@ -1,8 +1,23 @@
-const nomeCompleto = "Diego Leandro Silva Gaspar";
+const calculadora = {
+    somar: function(a,b){
+        console.log(a + b);
+    },
 
-const resultado = nomeCompleto.split(" ");
+    subtrair: function(a,b){
+        console.log(a - b);
+    },
 
-for(let i =0; i< resultado.length; i++) {  
+    multiplicar: function(a,b){
+        console.log(a * b);
+    },
 
-console.log(resultado[i]);
-}
+    dividir: function(a,b){
+        console.log(a / b);
+    }
+
+};
+
+calculadora.somar(5,8);
+calculadora.multiplicar(5,5);
+calculadora.subtrair(4,2);
+calculadora.dividir(10,2);
