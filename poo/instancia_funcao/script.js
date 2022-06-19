@@ -13,4 +13,4 @@ let doberman = criaCachorro('doberman', 4, 'preta');
 
 console.table(doberman);
 
-doberman.latir();
+doberman.latir(); 
