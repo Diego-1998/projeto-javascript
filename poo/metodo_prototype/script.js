@@ -15,3 +15,4 @@ Cachorro.prototype.latir = function() {
 let husky = new Cachorro('Husky', 4, 'cinza');
 
 husky.uivar();
+husky.latir();
